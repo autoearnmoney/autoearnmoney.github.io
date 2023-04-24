@@ -105,13 +105,8 @@ theme: next
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: 'git'
-  repository: https://github.com/autoearnmoney/autoearnmoney.github.io.git
+  repository: git@github.com:autoearnmoney/autoearnmoney.io.git 
   branch: main 
 
-# Social
-social:
-  GitHub: https://github.com/autoearnmoney
-  Instagram: https://www.instagram.com/autoearnmoney
-  YouTube: https://youtube.com/@autoearnmoney
 
   
