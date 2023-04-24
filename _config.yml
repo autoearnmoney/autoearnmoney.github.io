@@ -110,7 +110,7 @@ deploy:
   message: 'Everything is Ok'
   public_dir: _public
   ignore: 
-    - 'node_modules/**/*)'
+    - 'node_modules)'
     - '.DS_Store'
     - '.git/*'
     - '.gitignore'
@@ -119,7 +119,14 @@ deploy:
     - 'README.*'
     - 'LICENSE*'
     - '*.md'
-
+    - '.gihub'
+    - '.deploy_git'
+    - 'scaffolds'
+    - 'source'
+    - 'themes'
+    - '.npmignore'
+    - '*.yml'
+    - '*.json'
 
 
   
