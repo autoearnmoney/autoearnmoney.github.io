@@ -106,7 +106,7 @@ theme: next
 deploy:
   type: 'git'
   repository: https://github.com/autoearnmoney/autoearnmoney.github.io.git
-  branch: master
+  branch: main 
 
 # Social
 social:
