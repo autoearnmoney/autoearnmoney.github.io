@@ -108,25 +108,25 @@ deploy:
   repository: git@github.com:autoearnmoney/autoearnmoney.github.io.git 
   branch: main 
   message: 'Everything is Ok'
-  public_dir: _public
-  ignore: 
-    - 'node_modules)'
-    - '.DS_Store'
-    - '.git/*'
-    - '.gitignore'
-    - '.travis.yml'
-    - 'Gemfile*'
-    - 'README.*'
-    - 'LICENSE*'
-    - '*.md'
-    - '.gihub'
-    - '.deploy_git'
-    - 'scaffolds'
-    - 'source'
-    - 'themes'
-    - '.npmignore'
-    - '*.yml'
-    - '*.json'
+  public_dir: public
+  # ignore: 
+  #- 'node_modules)'
+  # - '.DS_Store'
+  # - '.git/*'
+  # - '.gitignore'
+  # - '.travis.yml'
+  # - 'Gemfile*'
+  # - 'README.*'
+  # - 'LICENSE*'
+  # - '*.md'
+  # - '.gihub'
+  # - '.deploy_git'
+  # - 'scaffolds'
+  # - 'source'
+  # - 'themes'
+  # - '.npmignore'
+  # - '*.yml'
+  # - '*.json'
 
 
   
